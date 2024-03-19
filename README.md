@@ -15,9 +15,10 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm run build`
+creates or update build folder which contain the production build of the app
 
 ### `client-s3-deploy`
+update aws-s3 bucket with the content in build folder
 
 ### `client-deploy`
-
-
+this will first build (`npm run build`) then update aws-s3 bucket with the content in build folder
